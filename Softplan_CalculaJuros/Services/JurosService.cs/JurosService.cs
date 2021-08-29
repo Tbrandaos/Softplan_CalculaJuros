@@ -36,7 +36,7 @@ namespace Softplan_CalculaJuros.Services.JurosService.cs
 
         public string GetUrl()
         {
-            var url = "";
+            var url = "https://github.com/Tbrandaos/Softplan_CalculaJuros";
             return url;
         }
     }

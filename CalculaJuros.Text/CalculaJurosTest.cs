@@ -24,7 +24,7 @@ namespace CalculaJuros.Text
             var jurosService = new JurosService();
             var resultado = jurosService.GetUrl();
 
-            Assert.AreEqual("", resultado);
+            Assert.AreEqual("https://github.com/Tbrandaos/Softplan_CalculaJuros", resultado);
         }
     }
 }
